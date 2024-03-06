@@ -1,0 +1,61 @@
+{
+  "name": "react-demo",
+  "private": true,
+  "version": "0.0.0",
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=8"
+  },
+  "scripts": {
+    "prepare": "husky install",
+    "initial": "npm i",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "lint-staged": {
+    "*.{js,ts,css,md}": "prettier --write"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.0.1",
+    "antd": "^5.2.2",
+    "axios": "^1.2.1",
+    "crypto-js": "^4.2.0",
+    "dayjs": "^1.11.7",
+    "immer": "^10.0.2",
+    "js-cookie": "^3.0.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router": "^6.8.1",
+    "react-router-dom": "^6.8.1",
+    "react-toastify": "^10.0.3",
+    "vite-plugin-svgr": "^2.4.0",
+    "zustand": "^4.3.8"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.4.2",
+    "@commitlint/config-conventional": "^17.4.2",
+    "@types/crypto-js": "^4.2.1",
+    "@types/js-cookie": "^3.0.6",
+    "@types/node": "^18.11.17",
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.9",
+    "@typescript-eslint/eslint-plugin": "^5.50.0",
+    "@typescript-eslint/parser": "^5.50.0",
+    "@vitejs/plugin-react": "^3.0.0",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.33.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-react": "^7.32.2",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.0",
+    "postcss": "^8.4.24",
+    "prettier": "2.8.3",
+    "sass": "^1.63.2",
+    "tailwindcss": "^3.3.2",
+    "typescript": "^4.9.3",
+    "unplugin-auto-import": "^0.16.0",
+    "unplugin-icons": "^0.16.1",
+    "vite": "^4.0.0"
+  }
+}
